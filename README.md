@@ -10,7 +10,7 @@ $ cd docker-milkode
 
 Edit `docker-milode/packages`.
 
-```:packages
+```
 https://github.com/ongaeshi/milkode.git
 https://github.com/ongaeshi/honyomi.git
 .
@@ -29,11 +29,11 @@ Run.
 $ docker run --name milkode -d -it -p 9292:9292 milkode
 ```
 
-### Install from local files.
+### Add packages from local files.
 
 Copy source to `docker-milkode/`.
 
-```:packages
+```
 aaa/
 bbb/
 .
