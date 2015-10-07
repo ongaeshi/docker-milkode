@@ -14,7 +14,7 @@ RUN milk init --default
 
 # Add packages
 ONBUILD ADD . /home/
-ONBUILD RUN milk add --from-file=/home/packages
+ONBUILD RUN (cd /home && milk add --from-file=packages)
 
 # Run
 EXPOSE 9292
