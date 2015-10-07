@@ -40,3 +40,6 @@ bbb/
 .
 ```
 
+## Credit
+
+Imspired from [nicklegr/docker-milkode](https://github.com/nicklegr/docker-milkode).
