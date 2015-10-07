@@ -8,20 +8,11 @@ $ git clone https://github.com/ongaeshi/docker-milkode.git
 $ cd docker-milkode
 ```
 
-Edit `docker-milode/packages`. Install from GitHub repo.
+Edit `docker-milode/packages`.
 
-```
+```:packages
 https://github.com/ongaeshi/milkode.git
 https://github.com/ongaeshi/honyomi.git
-.
-.
-```
-
-OR Install from local files. Copy the source to `docker-milkode/`.
-
-```
-aaa/
-bbb/
 .
 .
 ```
@@ -36,5 +27,16 @@ Run.
 
 ```
 $ docker run --name milkode -d -it -p 9292:9292 milkode
+```
+
+### Install from local files.
+
+Copy source to `docker-milkode/`.
+
+```:packages
+aaa/
+bbb/
+.
+.
 ```
 
